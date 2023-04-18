@@ -10,6 +10,13 @@
 <h3>Built With</h3>
 <p>HTML, CSS, JavaScript</p>
 
+<h3>Description</h3>
+<ul>
+  <li>In this example, we're using the getContext() method to get a 2D rendering context for the canvas. We're then setting the fill style to red (#FF0000) and drawing a filled rectangle using the fillRect() method.</li>
+  <li>In this example, we've added an event listener to the canvas element that detects mouse clicks and updates the x and y variables with the mouse coordinates.</li>
+  <li>We've also added a draw() function that clears the canvas, draws the red square at the new position, and requests the next frame of the animation using requestAnimationFrame().</li>
+</ul>
+
 <h3>Author</h3>
 <p>Sanchari Sen</p>
 
