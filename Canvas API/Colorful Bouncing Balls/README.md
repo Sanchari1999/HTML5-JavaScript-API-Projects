@@ -18,7 +18,7 @@ To run this project, you will need a web browser that supports HTML5, CSS3, and 
 
 ## Author
 
-* Your Name
+* Sanchari Sen
 
 ## Acknowledgments
 
