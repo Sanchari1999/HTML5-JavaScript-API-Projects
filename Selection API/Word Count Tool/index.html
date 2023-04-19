@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Word Count Tool</title>
+</head>
+<body>
+	<h1>Word Count Tool</h1>
+
+	<p>Select some text to see how many words it contains:</p>
+
+	<div id="selectedText"></div>
+	<p>Word count: <span id="wordCount">0</span></p>
+
+	<script>
+		document.addEventListener('mouseup', function() {
+			var selection = window.getSelection().toString().trim();
+			if (selection !== '') {
+				document.getElementById('selectedText').textContent = selection;
+				document.getElementById('wordCount').textContent = selection.split(' ').length;
+			}
+		});
+	</script>
+</body>
+</html>
